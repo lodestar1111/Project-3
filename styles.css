@@ -1,0 +1,140 @@
+/* Base Layout */
+* {
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei', cursive;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 31);
+
+
+
+
+}
+
+body {}
+
+header {
+    text-align: center;
+
+
+
+
+
+}
+
+legend {
+    margin-bottom: 20px;
+    font-family: 'ZCOOL XiaoWei', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+h1 {
+    background-color: rgb(6, 6, 63);
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0px;
+
+
+
+
+}
+
+.intro {
+    margin-top: 0;
+
+}
+
+form {}
+
+fieldset {
+    border: none;
+    padding: 0;
+
+}
+
+.zip {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+
+}
+
+.col {}
+
+.first {
+
+    margin: 10px;
+
+
+}
+
+.second {}
+
+hr {
+    border: rgb(225, 220, 248) dashed 1px;
+    margin: 20px;
+
+}
+
+
+
+footer {
+    text-align: center;
+
+}
+
+
+/* SELECTORS */
+input[placeholder] {}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: rgb(93, 197, 183);
+    color: whitesmoke;
+    width: 20em;
+    border-radius: 10px;
+    height: 4em;
+    margin: 25px;
+
+
+
+}
+
+
+
+.first[type="checkbox"]+label {
+    display: inline-block;
+
+}
+
+.chk1 {
+    margin: 3px;
+    padding-left: 10px;
+}
+
+.topics {
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+    margin: auto;
+}
+
+
+
+
+
+/* Combinators */
+.first input {
+
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {}
