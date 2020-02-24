@@ -64,13 +64,14 @@ main {
 
 
 
+
 }
 
 .contact {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+
 }
 
 
@@ -120,6 +121,7 @@ input:focus {
 input::placeholder {
     color: rgb(126, 137, 219);
     opacity: .7;
+    text-align: right;
 
 }
 
@@ -179,6 +181,7 @@ hr {
 
 label {
     margin-bottom: 10px;
+
 
 
 
@@ -258,6 +261,10 @@ body {}
     .f1 {
         margin-top: 50px;
         margin-bottom: 30px;
+        display: flex;
+
+
+
 
 
     }
@@ -266,21 +273,32 @@ body {}
         margin-bottom: 40px;
     }
 
-    .bottom {
-        margin-top: 10px;
+    .bottom {}
 
-    }
 
-    form {
-        max-width: 65%;
-        margin: auto;
-    }
+}
 
-    legend {
-        margin-bottom: 20px;
+textarea {}
 
-    }
+form {
+    max-width: 65%;
+    margin: auto;
+}
 
-    * {
-        background-color: rgb(250, 255, 249);
-    }
+legend {
+    margin-bottom: 20px;
+
+}
+
+* {
+    background-color: rgb(250, 255, 249);
+}
+
+.contact label {
+    text-align: left;
+}
+
+.contact {
+    line-height: 20px;
+    width: 100%;
+}
