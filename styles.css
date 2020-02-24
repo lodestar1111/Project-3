@@ -19,6 +19,8 @@ header {
 
 
 
+
+
 }
 
 legend {
@@ -32,8 +34,8 @@ h1 {
     background-color: rgb(6, 6, 63);
     text-transform: uppercase;
     color: whitesmoke;
-    margin: 0;
-    padding: 0px;
+
+
 
 
 
@@ -45,23 +47,21 @@ h1 {
 
 }
 
-form {}
+
 
 fieldset {
     border: none;
-    padding: 0;
+
+
+
 
 }
 
 .zip {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
 
-
+    width: 50%;
+    display: inline;
 }
-
-.col {}
 
 .first {
 
@@ -73,8 +73,8 @@ fieldset {
 .second {}
 
 hr {
-    border: rgb(225, 220, 248) dashed 1px;
-    margin: 20px;
+    border: rgb(225, 220, 248) solid 1px;
+    width: 45%;
 
 }
 
@@ -85,6 +85,13 @@ footer {
 
 }
 
+label {
+    margin: 7px;
+
+
+}
+
+input {}
 
 /* SELECTORS */
 input[placeholder] {}
@@ -96,7 +103,9 @@ input[type="submit"] {
     width: 20em;
     border-radius: 10px;
     height: 4em;
-    margin: 25px;
+
+    max-width: 100%;
+    width: 100%;
 
 
 
@@ -104,21 +113,20 @@ input[type="submit"] {
 
 
 
-.first[type="checkbox"]+label {
-    display: inline-block;
 
-}
 
-.chk1 {
-    margin: 3px;
-    padding-left: 10px;
-}
+.chk1 {}
 
 .topics {
     background-color: rgb(241, 241, 241);
     border-radius: 4px;
-    margin: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
 }
+
+
+
 
 
 
@@ -129,6 +137,7 @@ input[type="submit"] {
 
     background-color: rgb(241, 241, 241);
     border-radius: 4px;
+    height: 2.5em;
 }
 
 
@@ -137,4 +146,11 @@ input[type="submit"] {
 
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .first {}
+
+    .second {}
+
+    .zip {}
+
+}
