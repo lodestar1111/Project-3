@@ -273,32 +273,45 @@ body {}
         margin-bottom: 40px;
     }
 
-    .bottom {}
+    .bottom textarea {}
 
+    form {
+        max-width: 65%;
+        margin: auto;
+    }
 
-}
+    legend {
+        margin-bottom: 20px;
 
-textarea {}
+    }
 
-form {
-    max-width: 65%;
-    margin: auto;
-}
+    * {
+        background-color: rgb(250, 255, 249);
+    }
 
-legend {
-    margin-bottom: 20px;
+    .contact label {
+        text-align: left;
+    }
 
-}
+    /* Changes made per suggestions to fix desktop */
+    .contact {
+        display: block;
 
-* {
-    background-color: rgb(250, 255, 249);
-}
+    }
 
-.contact label {
-    text-align: left;
-}
+    .contact label {
+        float: left;
+        margin-top: 5px;
+        width: 30%;
+    }
 
-.contact {
-    line-height: 20px;
-    width: 100%;
-}
+    .contact input,
+    .contact select {
+        display: inline-block;
+        margin-bottom: 25px;
+        width: 70%;
+    }
+
+    #zip {
+        width: 25%;
+    }
