@@ -34,7 +34,7 @@ legend {
 }
 
 h1 {
-    background-color: rgb(6, 6, 63);
+    background-color: rgb(88, 124, 64);
     text-transform: uppercase;
     color: whitesmoke;
     padding-bottom: 1em;
@@ -148,6 +148,7 @@ textarea {
     max-width: 100%;
     margin-bottom: 20px;
     width: 100%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 footer {
@@ -200,7 +201,7 @@ input[type="submit"] {
     margin-top: 20px;
     max-width: 100%;
     width: 100%;
-
+    box-shadow: 10px 10px 5px grey;
 
 
 }
@@ -209,17 +210,7 @@ input[type="submit"] {
 
 
 
-.chk1 {}
 
-
-
-
-
-
-
-
-
-/* Combinators */
 .first input {
 
     background-color: rgb(241, 241, 241);
@@ -234,10 +225,59 @@ body {}
 
 
 @media (min-width: 768px) {
-    .first {}
 
-    .second {}
+    hr {
+        max-width: 65%;
+        margin: auto;
+        border: darkgreen 1px solid;
 
-    .zip {}
 
+    }
+
+    header hr {
+        max-width: 65%;
+        margin: auto;
+        border: darkgreen 6px inset;
+
+    }
+
+    form hr {
+        max-width: 100%;
+        margin: auto;
+        border: darkgreen 6px outset;
+    }
+
+    .bottom,
+    .bottom label {
+        background: rgb(196, 222, 174);
+        background: linear-gradient(90deg, rgba(196, 222, 174, 1) 0%, rgba(157, 199, 180, 1) 63%);
+        border-radius: 10px;
+
+    }
+
+    .f1 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+
+    }
+
+    p {
+        margin-bottom: 40px;
+    }
+
+    .bottom {
+        margin-top: 10px;
+
+    }
+
+    form {
+        max-width: 65%;
+        margin: auto;
+    }
+
+    legend {
+        margin-bottom: 20px;
+
+    }
 }
