@@ -4,7 +4,7 @@
     font-family: 'ZCOOL XiaoWei', cursive;
     background-color: rgb(255, 255, 255);
     color: rgb(10, 10, 31);
-    border: 1px salmon solid;
+
     margin: 0;
 
 
@@ -37,12 +37,17 @@ h1 {
     background-color: rgb(88, 124, 64);
     text-transform: uppercase;
     color: whitesmoke;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
 
-    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+
+    font-size: 10px;
 
 
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 p {
@@ -91,7 +96,6 @@ fieldset {
     margin-top: 1em;
 }
 
-.div {}
 
 
 
@@ -151,10 +155,11 @@ select:focus {
 
 
 textarea {
-    background-color: rgb(241, 241, 241);
+    background-color: #e7eee6;
     border-radius: 4px;
     max-width: 100%;
     margin-bottom: 20px;
+    margin-top: 20px;
     width: 100%;
     box-shadow: 10px 10px 5px grey;
 }
@@ -279,7 +284,7 @@ body {}
         margin-bottom: 40px;
     }
 
-    .bottom textarea {}
+
 
     form {
         max-width: 65%;
