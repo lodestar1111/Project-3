@@ -24,10 +24,9 @@
   <main>
     <form action="index.html" method="POST">
       <fieldset class="f1">
+
+        <legend>Contact Information</legend>
         <div class="contact">
-          <legend>Contact Information</legend>
-
-
           <label for="fname">Full Name</label>
           <input type="text" id="fname" name="fname" autofocus placeholder="Required" /><br />
           <label for="email">Email Address</label>
@@ -39,7 +38,6 @@
           <label for="city">City</label>
           <input type="text" id="city" name="city" /><br />
           <label for="state">State</label>
-
           <select id="state" name="state">
             <option value="" disabled selected hidden>Choose State</option>
             <option value="ca">California</option>
@@ -50,22 +48,20 @@
             <option value="tx">Texas</option>
             <option value="wi">Wisconsin</option>
 
-
+          </select>
         </div>
-        </select>
         <br>
 
         <label>Zip Code</label>
         <div>
           <input type="number" id="zip" name="zip" /><br>
         </div>
-
       </fieldset>
       <hr />
       <fieldset class="f2">
-        <div class="news">
-          <legend>Newsletter</legend>
 
+        <legend>Newsletter</legend>
+        <div class="news">
 
           <p>Select the newsletters you would like to recieve</p>
           <input type="checkbox" id="html-news" value="interest_html" name="user_interest" /><label for="html-news">HTML
@@ -84,9 +80,8 @@
         <textarea rows="4" cols="50"></textarea>
         <input type="submit" id="button" value="Sign Up" />
       </div>
+    </form>
   </main>
-  </form>
-
   <footer>
     <h6>Copyright the Code Review</h6>
   </footer>
