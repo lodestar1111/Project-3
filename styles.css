@@ -280,4 +280,7 @@ body {}
         margin-bottom: 20px;
 
     }
-}
+
+    * {
+        background-color: rgb(250, 255, 249);
+    }
