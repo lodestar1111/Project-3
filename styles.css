@@ -110,8 +110,11 @@ input:focus {
     border: solid rgb(129, 129, 129) .5px;
 }
 
-input {
+.contact input {
     background-color: #f1f3f4;
+    height: 2em;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 input::placeholder {
@@ -123,9 +126,17 @@ input::placeholder {
 select {
     background-color: #f1f3f4;
     color: rgb(126, 137, 219);
-    opacity: .7;
-
+    padding: 1px 0;
+    box-shadow: 10px 10px 5px grey;
+    height: 2em;
+    border-radius: 7px;
 }
+
+select:focus {
+
+    border: solid rgb(129, 129, 129) .5px;
+}
+
 
 
 
@@ -152,9 +163,7 @@ footer {
 }
 
 
-.zip {
-    width: 50%;
-}
+
 
 
 hr {
