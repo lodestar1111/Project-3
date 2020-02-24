@@ -106,13 +106,16 @@ fieldset {
 
 }
 
-input:focus {
+#fname:focus {
 
-    border: solid rgb(129, 129, 129) .5px;
+    background-color: rgb(175, 211, 211);
+
+    border: solid rgb(87, 187, 87) 3px;
+
 }
 
 .contact input {
-    background-color: #f1f3f4;
+    background-color: #e7eee6;
     height: 2em;
     border-radius: 7px;
     box-shadow: 10px 10px 5px grey;
@@ -126,17 +129,20 @@ input::placeholder {
 }
 
 select {
-    background-color: #f1f3f4;
+    background-color: #e7eee6;
     color: rgb(126, 137, 219);
     padding: 1px 0;
     box-shadow: 10px 10px 5px grey;
     height: 2em;
     border-radius: 7px;
+
 }
 
 select:focus {
 
-    border: solid rgb(129, 129, 129) .5px;
+    border: solid rgb(87, 187, 87) 3px;
+    background-color: rgb(175, 211, 211);
+
 }
 
 
