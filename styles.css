@@ -42,8 +42,8 @@ h1 {
 
 }
 
-.intro {
-    margin-top: 0;
+#intro {
+    max-width: 100%;
 
 }
 
@@ -58,9 +58,7 @@ fieldset {
 }
 
 .zip {
-
     width: 50%;
-    display: inline;
 }
 
 .first {
@@ -91,7 +89,9 @@ label {
 
 }
 
-input {}
+input[type="number"] {
+    max-width: 100%;
+}
 
 /* SELECTORS */
 input[placeholder] {}
