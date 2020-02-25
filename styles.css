@@ -141,12 +141,14 @@ input:focus {
     background-color: rgb(175, 211, 211);
     transition: background-color 1s ease;
     border: solid rgb(87, 187, 87) 3px;
+    outline: none;
 }
 
 textarea:focus {
     background-color: rgb(175, 211, 211);
     transition: background-color 1s ease;
     border: solid rgb(87, 187, 87) 3px;
+    outline: none;
 }
 
 select {
@@ -167,6 +169,7 @@ select:focus {
     background-color: rgb(175, 211, 211);
     width: 200px;
     transition: background-color 1s ease;
+    outline: none;
 
 
 
@@ -231,7 +234,7 @@ input[placeholder] {}
 input[type="submit"] {
     cursor: pointer;
     background-color: rgb(93, 197, 183);
-    color: whitesmoke;
+    color: rgb(15, 15, 15);
     width: 20px;
     border-radius: 10px;
     height: 4em;
