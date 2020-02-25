@@ -122,6 +122,7 @@ fieldset {
 
 }
 
+
 .contact input {
     background-color: #e7eee6;
     height: 2em;
@@ -134,6 +135,18 @@ input::placeholder {
     opacity: .7;
     text-align: right;
 
+}
+
+input:focus {
+    background-color: rgb(175, 211, 211);
+    transition: background-color 1s ease;
+    border: solid rgb(87, 187, 87) 3px;
+}
+
+textarea:focus {
+    background-color: rgb(175, 211, 211);
+    transition: background-color 1s ease;
+    border: solid rgb(87, 187, 87) 3px;
 }
 
 select {
