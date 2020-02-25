@@ -90,6 +90,10 @@ fieldset {
     margin: 0;
 }
 
+#zip {
+    width: 25%;
+}
+
 /* NEWSLETTER SECTION */
 .f2 {
     border: none;
